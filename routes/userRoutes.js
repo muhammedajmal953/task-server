@@ -1,5 +1,5 @@
 const { Router } =require( "express");
-const { loginController, countryDetails } =require("../constroller/userController");
+const { loginController, countryDetails } =require("../controller/userController");
 
  const userRouter = Router()
 

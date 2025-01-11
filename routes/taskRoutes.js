@@ -1,5 +1,5 @@
 const { Router } =require("express");
-const { createTask, deleteTaskController, getTaskController, updateController } =require("../constroller/taskController");
+const { createTask, deleteTaskController, getTaskController, updateController } =require("../controller/taskController");
 
 const taskRouter = Router()
 
